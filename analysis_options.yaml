@@ -1,0 +1,19 @@
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+    - lib/generated/**
+    - test/**
+    - assets/** 
+linter:
+  rules:
+    always_declare_return_types: true
+    prefer_const_constructors: true
+    avoid_unnecessary_containers: true
+    sized_box_for_whitespace: true
+    unnecessary_null_checks: true
+    avoid_print: false
+    prefer_final_locals: true
+    unnecessary_brace_in_string_interps: false
+    constant_identifier_names: false
